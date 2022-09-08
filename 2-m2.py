@@ -1,0 +1,10 @@
+first=543.21
+second=123.45
+result01=first+second
+result02=first-second
+result03=first*second
+result04=first/second
+print(first, "+", second, "=", result01)
+print(first, "-", second, "=", result02)
+print(first, "*", second, "=", result03)
+print(first, "/", second, "=", result04)
