@@ -1,3 +1,25 @@
+myVar=100
+print(type(myVar))
+myVar=100.0
+print(type(myVar))
+boolVar=False
+intVar=100
+floatVar=123.45
+strVar="안녕?"
+print(boolVar)
+var2=300
+var1=var2+20
+print(var1)#된다
+print("%d %d" %(var1,var2))
+var3=400
+var3=var3+500
+print("%d" % var3)
+var4=var5=var6=var7=100
+print(var4)
+a=123
+print(type(a))
+a=100**1000
+print(a)
 a,b=9,2
 print(a**b, a%b,a//b)
 
