@@ -18,7 +18,7 @@ for i in range(0, 9):
 
 for i in range(0, 3):
     for k in range(0, 3):
-        btnList[num].place(x=xPos, y=yPos)
+        btnList[num].place(x=xPos, y=yPos) # grid()함수 사용 가능
         num += 1
         xPos += 70
     xPos = 0
